@@ -14,4 +14,4 @@ function block() {
         window.location.replace("http://stackoverflow.com");
 }
 
-load_js();
+
