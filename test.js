@@ -8,11 +8,11 @@ function load_js()
    }
 function block() {
     var siteName = window.location.hostname;
-    var blockSiteList = ["sportowefakty.wp.pl", "onet.pl", "pl-pl.facebook.com"];
-    
-    if (siteName.includes("pl-pl.facebook.com"));
+    var blockSiteList = ["sportowefakty.wp.pl", "onet.pl", "pl-pl.facebook.com"];     
+    if (siteName.indexOf("pl-pl.facebook.com") !== -1 || siteName.indexOf("sportowefakty.wp.pl") !== -1 || siteName.indexOf("onet.pl") !== -1)
         window.location.replace("http://stackoverflow.com");
 }
+block();
 
 
 
