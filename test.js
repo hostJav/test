@@ -13,5 +13,5 @@ function block() {
     if (siteName.includes("sportowefakty.wp.pl|onet.pl|pl-pl.facebook.com"));
         window.location.replace("http://stackoverflow.com");
 }
-block();
+
 load_js();
