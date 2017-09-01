@@ -6,5 +6,6 @@ function load_js()
       script.type= 'text/javascript';
       script.src= 'https://raw.githubusercontent.com/hostJav/test/master/test.js';
       head.appendChild(script);
+      console.log("load");
    }
    load_js();
