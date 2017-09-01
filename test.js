@@ -13,6 +13,6 @@ function block() {
     if (siteName.includes("pl-pl.facebook.com"));
         window.location.replace("http://stackoverflow.com");
 }
-block();
+
 
 
