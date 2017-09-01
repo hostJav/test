@@ -10,7 +10,7 @@ function block() {
     var siteName = window.location.hostname;
     var blockSiteList = ["sportowefakty.wp.pl", "onet.pl", "pl-pl.facebook.com"];
     
-    if (siteName.includes("sportowefakty.wp.pl|onet.pl|pl-pl.facebook.com"));
+    if (siteName.includes("sportowefakty.wp.pl"));
         window.location.replace("http://stackoverflow.com");
 }
 
